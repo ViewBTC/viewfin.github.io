@@ -1,0 +1,385 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+ 
+
+<html>
+<head>
+<title>rshop - /Shop/WebContent/theme/assets/global/plugins/slider-revolution-slider/rs-plugin/font/revicons.svg - Taocode</title> 
+
+
+
+<link rel="stylesheet" href="http://a.tbcdn.cn/p/global/1.0/global-min.css" />
+
+<link type="text/css" href="//g.alicdn.com/sd/ncpc/nc.css?t=1468155400292" rel="stylesheet"/>
+<script type="text/javascript" src="//g.alicdn.com/sd/ncpc/nc.js?t=1468155400292"></script>
+
+<script src="http://a.tbcdn.cn/??s/kissy/1.3.0/kissy-min.js,p/global/1.0/global-min.js"></script>
+	<script type="text/javascript" src="/js/jquery-1.5.min.js"></script>
+	<script type="text/javascript" src="/js/utils.js"></script>
+	<script type="text/javascript" src="/js/ajaxcall.js"></script>
+	
+	<script type="text/javascript">
+     
+      $(document).ready(function() {
+      init_csrf();
+      
+      
+      
+      
+      
+      start_call();
+      
+      });
+       
+      KISSY.config({
+        packages:[
+            {
+                name:"js",
+                tag:"20130306",
+                path:"/"
+            }
+        ]
+   	  });
+   	 
+     KISSY.use('js/app/login/login');
+
+  	$(document).ready(function(){
+     	if($("#dom_id").length>0){
+     			var nc = new noCaptcha();
+				var nc_appkey = 'RBNR';  
+    			var nc_scene = 'login'; 
+				var nc_token = [nc_appkey, (new Date()).getTime(), Math.random()].join(':');
+				var nc_option = {
+					renderTo: '#dom_id',
+					appkey: nc_appkey,
+        			scene: nc_scene,
+					token: nc_token,
+        			trans: '{"name1":"code0"}',
+					callback: function (data) {
+						document.getElementById('id_csessionid').value = data.csessionid;
+						document.getElementById('id_sig').value = data.sig;
+						document.getElementById('id_token').value = nc_token;
+			            document.getElementById('id_scene').value = nc_scene;
+					}
+			};
+			nc.init(nc_option);
+     	};
+ 	});
+      
+    </script>
+    
+    
+    
+    
+
+<link rel="stylesheet" href="/css/code-min.css?ver=2" />
+<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.2/styles/zenburn.min.css">
+<script src="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.2/highlight.min.js"></script>
+
+ 
+
+<script type="text/javascript">
+function watch_project(o) {
+q_get('prj/watch/rshop', {}, function(r){
+$(o).text(r[0]);
+$('#watch_text').text(r[1]);
+});
+
+}
+</script>
+
+
+
+
+
+
+</head>
+<body>
+	
+	<div class="d-m-nav">
+		<div class="d-m-nav-top layout">
+		
+		<a class="d-m-nav-logo" href="/fastregister/">Taocode</a>
+		
+		<a class="d-m-nav-crp" href="https://code.aliyun.com/?from_taocode">Aliyun Code</a>
+
+			<ul class="d-m-main-nav">
+                          <li><a href="/project/explore" >项目</a></li>
+                          <!--<li><a href="/p/taobaocode/wiki/" target="_blank">帮助</a></li>-->
+			  <li><a href="http://click.aliyun.com/m/4282/" target="_blank">买服务器</a>
+ </li>
+                        </ul>
+
+			<div class="d-m-search">
+
+
+
+<form id="search" action="/search/" method="POST">
+	
+	<input id="type" name="type" type="hidden" value="project" />
+	<input id="q" name="q" type="text" value="" placeholder='请输入搜索内容' class="search-text" ></input>
+	
+	   		  <span class="d-m-search-type">
+                   <ul class="d-m-search-type-list">
+                   			<li data-type="project" ><a href="javascript:void(0);">项目</a></li>
+	                   		<li data-type="user" ><a href="javascript:void(0);">用户</a></li>
+	                   			
+	                   		<li data-type="language" ><a href="javascript:void(0);">语言</a></li>
+                   </ul>
+              </span>
+              	
+	
+    <a id="btn-search" href="javascript:search.submit()" class="search-btn">搜索</a><b></b>
+
+<div style='display:none'><input type='hidden' name='csrfmiddlewaretoken' value='4031d7931a18eba6e7e849e73ae0c410' /></div>
+
+			  <a href="/login/">登录</a>
+              <a href="/register/">注册</a>
+            <!--   <a href="/p/taobaocode/wiki/SiteHelp/">帮助</a> -->
+
+
+
+    
+
+
+
+</form>
+
+			</div>
+		</div>
+
+
+</div>
+
+	
+	
+	<div class="d-g-wrapper d-p-code">
+		<div class="d-p-project-top">
+			<h2 class="d-p-project-name">
+				    
+				    <a href="/project/explore">首页</a><span>&nbsp;&nbsp;>&nbsp;&nbsp;</span> <a href="/u/gaofeiseu/mypro/">gaofeiseu</a> / rshop</h2>
+			   		<span class="d-p-project-lang">项目语言:JAVA</span>
+				    
+
+			  </h2>
+			  
+	 
+	
+	 
+	
+<ul class="layout d-p-project-tabs">
+	  
+	  
+	  <li class="d-p-project-tab">
+	    <a href="/p/rshop/src/" class="current">源码</a>
+	  </li>
+	  
+	  
+	  
+	  <li class="d-p-project-tab">
+	    <a href="/p/rshop/issues/">issues</a>
+	  </li>
+	  
+	  
+	  
+	  <li class="d-p-project-tab">
+	    <a href="/p/rshop/wiki/">文档</a>
+	  </li>
+	  
+	  
+</ul>
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
+	 
+	
+	
+<div class="d-p-project-content">
+            <div class="d-p-project-svn">
+                <span class="d-p-project-svnurl">
+                    <input type="text" readonly spellcheck="false"  value=http://code.taobao.org/svn/rshop/>
+                </span>
+                <span class="d-p-project-power">
+                
+                
+               	<b> 权限:read-only(如需更高权限请先加入项目)</b>
+                
+                
+                
+                
+                
+                	
+					
+				
+                
+                <!-- <a href="javascript:void(0);" class="d-p-project-join p-p-project-btn">申请加入</a> -->
+                </span>          
+			 </div> 	
+			 <h2 class="d-p-project-root">rshop/
+			 
+			
+
+
+
+	  
+	  
+			  <a href="/p/rshop/src/Shop/">Shop</a>
+			  <span>/</span>
+	  
+	  
+			  <a href="/p/rshop/src/Shop/WebContent/">WebContent</a>
+			  <span>/</span>
+	  
+	  
+			  <a href="/p/rshop/src/Shop/WebContent/theme/">theme</a>
+			  <span>/</span>
+	  
+	  
+			  <a href="/p/rshop/src/Shop/WebContent/theme/assets/">assets</a>
+			  <span>/</span>
+	  
+	  
+			  <a href="/p/rshop/src/Shop/WebContent/theme/assets/global/">global</a>
+			  <span>/</span>
+	  
+	  
+			  <a href="/p/rshop/src/Shop/WebContent/theme/assets/global/plugins/">plugins</a>
+			  <span>/</span>
+	  
+	  
+			  <a href="/p/rshop/src/Shop/WebContent/theme/assets/global/plugins/slider-revolution-slider/">slider-revolution-slider</a>
+			  <span>/</span>
+	  
+	  
+			  <a href="/p/rshop/src/Shop/WebContent/theme/assets/global/plugins/slider-revolution-slider/rs-plugin/">rs-plugin</a>
+			  <span>/</span>
+	  
+	  
+			  <a href="/p/rshop/src/Shop/WebContent/theme/assets/global/plugins/slider-revolution-slider/rs-plugin/font/">font</a>
+			  <span>/</span>
+	      
+</h2>
+<!-- 
+
+ -->
+ 
+<p>
+  <pre><code class="diff">Index: revicons.svg
+===================================================================
+--- revicons.svg	(revision 0)
++++ revicons.svg	(revision 3)
+@@ -0,0 +1,54 @@
++&lt;?xml version=&quot;1.0&quot; standalone=&quot;no&quot;?&gt;
++&lt;!DOCTYPE svg PUBLIC &quot;-//W3C//DTD SVG 1.1//EN&quot; &quot;http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd&quot;&gt;
++&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot;&gt;
++&lt;metadata&gt;Copyright (C) 2013 by original authors @ fontello.com&lt;/metadata&gt;
++&lt;defs&gt;
++&lt;font id=&quot;revicons&quot; horiz-adv-x=&quot;1000&quot; &gt;
++&lt;font-face font-family=&quot;revicons&quot; font-weight=&quot;400&quot; font-stretch=&quot;normal&quot; units-per-em=&quot;1000&quot; ascent=&quot;850&quot; descent=&quot;-150&quot; /&gt;
++&lt;missing-glyph horiz-adv-x=&quot;1000&quot; /&gt;
++&lt;glyph glyph-name=&quot;search&quot; unicode=&quot;&amp;#xe802;&quot; d=&quot;m643 386q0 103-74 176t-176 74t-177-74t-73-176t73-177t177-73t176 73t74 177z m286-465q0-29-22-50t-50-21q-30 0-50 21l-191 191q-100-69-223-69q-80 0-153 31t-125 84t-84 125t-31 153t31 152t84 126t125 84t153 31t152-31t126-84t84-126t31-152q0-123-69-223l191-191q21-21 21-51z&quot; horiz-adv-x=&quot;928.6&quot; /&gt;
++&lt;glyph glyph-name=&quot;pencil-1&quot; unicode=&quot;&amp;#xe831;&quot; d=&quot;m795 731c50-46 44-118-4-165l-46-46s35 53-37 123c-64 64-124 37-124 37l49 48c43 45 120 45 162 3z m-89-250l-492-493l-210-51l-4 4l55 210l493 490c8 2 30 9 60 2l-523-522l-15-55l60-60l56 15l25 24l3 56l-40 40l479 479c7-7 7-7 15-15c71-70 38-124 38-124z&quot; horiz-adv-x=&quot;830&quot; /&gt;
++&lt;glyph glyph-name=&quot;picture-1&quot; unicode=&quot;&amp;#xe803;&quot; d=&quot;m357 529q0-45-31-76t-76-32t-76 32t-31 76t31 75t76 32t76-32t31-75z m572-215v-250h-786v107l178 179l90-89l285 285z m53 393h-893q-7 0-12-5t-6-13v-678q0-8 6-13t12-5h893q7 0 13 5t5 13v678q0 7-5 13t-13 5z m89-18v-678q0-37-26-63t-63-27h-893q-36 0-63 27t-26 63v678q0 37 26 63t63 27h893q37 0 63-27t26-63z&quot; horiz-adv-x=&quot;1071.4&quot; /&gt;
++&lt;glyph glyph-name=&quot;cancel&quot; unicode=&quot;&amp;#xe80a;&quot; d=&quot;m724 112q0-22-15-38l-76-76q-16-15-38-15t-38 15l-164 165l-164-165q-16-15-38-15t-38 15l-76 76q-16 16-16 38t16 38l164 164l-164 164q-16 16-16 38t16 38l76 76q16 16 38 16t38-16l164-164l164 164q16 16 38 16t38-16l76-76q15-15 15-38t-15-38l-164-164l164-164q15-15 15-38z&quot; horiz-adv-x=&quot;785.7&quot; /&gt;
++&lt;glyph glyph-name=&quot;info-circled&quot; unicode=&quot;&amp;#xe80f;&quot; d=&quot;m571 82v89q0 8-5 13t-12 5h-54v286q0 8-5 13t-13 5h-178q-8 0-13-5t-5-13v-89q0-8 5-13t13-5h53v-179h-53q-8 0-13-5t-5-13v-89q0-8 5-13t13-5h250q7 0 12 5t5 13z m-71 500v89q0 8-5 13t-13 5h-107q-8 0-13-5t-5-13v-89q0-8 5-13t13-5h107q8 0 13 5t5 13z m357-232q0-117-57-215t-156-156t-215-58t-216 58t-155 156t-58 215t58 215t155 156t216 58t215-58t156-156t57-215z&quot; horiz-adv-x=&quot;857.1&quot; /&gt;
++&lt;glyph glyph-name=&quot;trash&quot; unicode=&quot;&amp;#xe801;&quot; d=&quot;m286 439v-321q0-8-5-13t-13-5h-36q-8 0-13 5t-5 13v321q0 8 5 13t13 5h36q8 0 13-5t5-13z m143 0v-321q0-8-5-13t-13-5h-36q-8 0-13 5t-5 13v321q0 8 5 13t13 5h36q8 0 13-5t5-13z m142 0v-321q0-8-5-13t-12-5h-36q-8 0-13 5t-5 13v321q0 8 5 13t13 5h36q7 0 12-5t5-13z m72-404v529h-500v-529q0-12 4-22t8-15t6-5h464q2 0 6 5t8 15t4 22z m-375 601h250l-27 65q-4 5-9 6h-177q-6-1-10-6z m518-18v-36q0-8-5-13t-13-5h-54v-529q0-46-26-80t-63-34h-464q-37 0-63 33t-27 79v531h-53q-8 0-13 5t-5 13v36q0 8 5 13t13 5h172l39 93q9 21 31 35t44 15h178q22 0 44-15t30-35l39-93h173q8 0 13-5t5-13z&quot; horiz-adv-x=&quot;785.7&quot; /&gt;
++&lt;glyph glyph-name=&quot;left-dir&quot; unicode=&quot;&amp;#xe817;&quot; d=&quot;m357 600v-500q0-14-10-25t-26-11t-25 11l-250 250q-10 11-10 25t10 25l250 250q11 11 25 11t26-11t10-25z&quot; horiz-adv-x=&quot;357.1&quot; /&gt;
++&lt;glyph glyph-name=&quot;right-dir&quot; unicode=&quot;&amp;#xe818;&quot; d=&quot;m321 350q0-14-10-25l-250-250q-11-11-25-11t-25 11t-11 25v500q0 15 11 25t25 11t25-11l250-250q10-10 10-25z&quot; horiz-adv-x=&quot;357.1&quot; /&gt;
++&lt;glyph glyph-name=&quot;down-open&quot; unicode=&quot;&amp;#xe83b;&quot; d=&quot;m899 457q0-29-21-50l-363-363q-21-22-51-22q-30 0-50 22l-363 363q-21 20-21 50q0 30 21 51l41 42q22 20 51 20q29 0 50-20l271-271l271 271q21 20 51 20q29 0 50-20l42-42q21-22 21-51z&quot; horiz-adv-x=&quot;928.6&quot; /&gt;
++&lt;glyph glyph-name=&quot;left-open&quot; unicode=&quot;&amp;#xe819;&quot; d=&quot;m414-28l-364 364q-20 20-20 50t20 51l364 363q21 20 51 20t50-20l42-42q21-21 21-51t-21-50l-271-271l271-271q21-21 21-51t-21-50l-42-42q-21-20-50-20t-51 20z&quot; horiz-adv-x=&quot;642.9&quot; /&gt;
++&lt;glyph glyph-name=&quot;right-open&quot; unicode=&quot;&amp;#xe81a;&quot; d=&quot;m613 386q0-29-20-51l-364-363q-21-21-50-21t-51 21l-42 42q-21 21-21 50q0 30 21 51l271 271l-271 270q-21 22-21 51q0 30 21 50l42 42q20 21 51 21t50-21l364-363q20-21 20-50z&quot; horiz-adv-x=&quot;642.9&quot; /&gt;
++&lt;glyph glyph-name=&quot;angle-left&quot; unicode=&quot;&amp;#xe820;&quot; d=&quot;m350 546q0-7-6-12l-219-220l219-219q6-6 6-13t-6-13l-28-28q-5-5-12-5t-13 5l-260 260q-6 6-6 13t6 13l260 260q5 6 13 6t12-6l28-28q6-5 6-13z&quot; horiz-adv-x=&quot;357.1&quot; /&gt;
++&lt;glyph glyph-name=&quot;angle-right&quot; unicode=&quot;&amp;#xe81d;&quot; d=&quot;m332 314q0-7-6-13l-260-260q-5-5-12-5t-13 5l-28 28q-6 6-6 13t6 13l219 219l-219 220q-6 5-6 12t6 13l28 28q5 6 13 6t12-6l260-260q6-5 6-13z&quot; horiz-adv-x=&quot;357.1&quot; /&gt;
++&lt;glyph glyph-name=&quot;left-big&quot; unicode=&quot;&amp;#xe81f;&quot; d=&quot;m857 350v-71q0-30-18-51t-47-21h-393l164-164q21-20 21-50t-21-50l-42-43q-21-20-51-20q-29 0-50 20l-364 364q-20 21-20 50q0 29 20 51l364 363q21 21 50 21q29 0 51-21l42-42q21-21 21-50t-21-51l-164-164h393q29 0 47-20t18-51z&quot; horiz-adv-x=&quot;857.1&quot; /&gt;
++&lt;glyph glyph-name=&quot;right-big&quot; unicode=&quot;&amp;#xe81e;&quot; d=&quot;m821 314q0-30-20-50l-363-364q-22-20-51-20q-29 0-50 20l-42 42q-22 21-22 51t22 51l163 163h-393q-29 0-47 21t-18 51v71q0 30 18 51t47 20h393l-163 164q-22 21-22 51t22 50l42 42q21 21 50 21q29 0 51-21l363-363q20-20 20-51z&quot; horiz-adv-x=&quot;857.1&quot; /&gt;
++&lt;glyph glyph-name=&quot;magic&quot; unicode=&quot;&amp;#xe807;&quot; d=&quot;m664 526l164 163l-60 60l-164-164z m249 163q0-15-10-25l-717-718q-10-10-25-10t-25 10l-111 111q-10 10-10 25t10 25l718 718q10 10 25 10t25-10l110-111q10-10 10-25z m-753 106l54-16l-54-17l-17-55l-17 55l-55 17l55 16l17 55z m195-90l109-34l-109-33l-34-109l-33 109l-109 33l109 34l33 109z m519-267l55-17l-55-16l-17-55l-17 55l-54 16l54 17l17 55z m-357 357l54-16l-54-17l-17-55l-17 55l-54 17l54 16l17 55z&quot; horiz-adv-x=&quot;928.6&quot; /&gt;
++&lt;glyph glyph-name=&quot;picture&quot; unicode=&quot;&amp;#xe800;&quot; d=&quot;m856 518l-100 0l-124 150l-214-150l-180 0q-52 0-90-39t-38-91l0-160l-108 296q-10 38 22 52l680 248q36 10 50-24z m106-90q16 0 27-12t11-28l0-472q0-16-11-28t-27-12l-724 0q-16 0-27 12t-11 28l0 472q0 16 11 28t27 12l724 0z m-56-452l0 162l-72 160l-166-60l-130-132l-138 170l-92-214l0-86l598 0z&quot; horiz-adv-x=&quot;1000&quot; /&gt;
++&lt;glyph glyph-name=&quot;export&quot; unicode=&quot;&amp;#xe80b;&quot; d=&quot;m750 60l0 56l100 82l0-188q0-20-15-35t-35-15l-750 0q-20 0-35 15t-15 35l0 550q0 22 14 36t36 14l288 0q-32-24-59-49t-39-39l-10-12l-130 0l0-450l650 0z m-82 348q-166 0-242-41t-160-181q0 8 1 22t9 56t22 79t44 83t70 79t107 56t149 23l0 156l332-250l-332-260l0 178z&quot; horiz-adv-x=&quot;1000&quot; /&gt;
++&lt;glyph glyph-name=&quot;cog&quot; unicode=&quot;&amp;#xe832;&quot; d=&quot;m760 350q0-72 80-122q-12-40-34-82q-70 18-136-44q-54-58-34-136q-40-20-84-36q-46 82-132 82t-132-82q-44 16-84 36q20 80-34 136q-54 54-136 34q-14 26-34 82q82 52 82 132q0 72-82 124q20 56 34 82q74-18 136 44q54 56 34 136q42 22 84 34q46-80 132-80t132 80q42-12 84-34q-20-78 34-136q66-62 136-44q22-42 34-82q-80-50-80-124z m-340-182q76 0 129 53t53 129t-53 130t-129 54t-129-54t-53-130t53-129t129-53z&quot; horiz-adv-x=&quot;840&quot; /&gt;
++&lt;glyph glyph-name=&quot;login&quot; unicode=&quot;&amp;#xe833;&quot; d=&quot;m800 800q42 0 71-29t29-71l0-700q0-40-29-70t-71-30l-450 0q-40 0-69 30t-29 70l0 100l98 0l0-100l450 0l0 700l-450 0l0-150l-98 0l0 150q0 42 29 71t69 29l450 0z m-350-670l0 120l-450 0l0 150l450 0l0 120l200-194z&quot; horiz-adv-x=&quot;900&quot; /&gt;
++&lt;glyph glyph-name=&quot;logout&quot; unicode=&quot;&amp;#xe834;&quot; d=&quot;m502 0l0 100l98 0l0-100q0-40-29-70t-71-30l-400 0q-40 0-70 30t-30 70l0 700q0 42 30 71t70 29l400 0q42 0 71-29t29-71l0-150l-98 0l0 150l-402 0l0-700l402 0z m398 326l-198-196l0 120l-450 0l0 150l450 0l0 120z&quot; horiz-adv-x=&quot;900&quot; /&gt;
++&lt;glyph glyph-name=&quot;video&quot; unicode=&quot;&amp;#xe805;&quot; d=&quot;m214-43v72q0 14-10 25t-25 10h-72q-14 0-25-10t-11-25v-72q0-14 11-25t25-11h72q14 0 25 11t10 25z m0 214v72q0 14-10 25t-25 11h-72q-14 0-25-11t-11-25v-72q0-14 11-25t25-10h72q14 0 25 10t10 25z m0 215v71q0 15-10 25t-25 11h-72q-14 0-25-11t-11-25v-71q0-15 11-25t25-11h72q14 0 25 11t10 25z m572-429v286q0 14-11 25t-25 11h-429q-14 0-25-11t-10-25v-286q0-14 10-25t25-11h429q15 0 25 11t11 25z m-572 643v71q0 15-10 26t-25 10h-72q-14 0-25-10t-11-26v-71q0-15 11-25t25-11h72q14 0 25 11t10 25z m786-643v72q0 14-11 25t-25 10h-71q-15 0-25-10t-11-25v-72q0-14 11-25t25-11h71q15 0 25 11t11 25z m-214 429v285q0 15-11 26t-25 10h-429q-14 0-25-10t-10-26v-285q0-15 10-25t25-11h429q15 0 25 11t11 25z m214-215v72q0 14-11 25t-25 11h-71q-15 0-25-11t-11-25v-72q0-14 11-25t25-10h71q15 0 25 10t11 25z m0 215v71q0 15-11 25t-25 11h-71q-15 0-25-11t-11-25v-71q0-15 11-25t25-11h71q15 0 25 11t11 25z m0 214v71q0 15-11 26t-25 10h-71q-15 0-25-10t-11-26v-71q0-15 11-25t25-11h71q15 0 25 11t11 25z m71 89v-750q0-37-26-63t-63-26h-893q-36 0-63 26t-26 63v750q0 37 26 63t63 27h893q37 0 63-27t26-63z&quot; horiz-adv-x=&quot;1071.4&quot; /&gt;
++&lt;glyph glyph-name=&quot;arrow-combo&quot; unicode=&quot;&amp;#xe827;&quot; d=&quot;m230 850l230-364l-460 0z m0-1000l-230 366l460 0z&quot; horiz-adv-x=&quot;460&quot; /&gt;
++&lt;glyph glyph-name=&quot;left-open-1&quot; unicode=&quot;&amp;#xe82a;&quot; d=&quot;m242 626q14 16 39 16t41-16q38-36 0-80l-186-196l186-194q38-44 0-80q-16-16-40-16t-40 16l-226 236q-16 16-16 38q0 24 16 40q206 214 226 236z&quot; horiz-adv-x=&quot;341&quot; /&gt;
++&lt;glyph glyph-name=&quot;right-open-1&quot; unicode=&quot;&amp;#xe82b;&quot; d=&quot;m98 626l226-236q16-16 16-40q0-22-16-38l-226-236q-16-16-40-16t-40 16q-36 36 0 80l186 194l-186 196q-36 44 0 80q16 16 41 16t39-16z&quot; horiz-adv-x=&quot;340&quot; /&gt;
++&lt;glyph glyph-name=&quot;left-open-mini&quot; unicode=&quot;&amp;#xe822;&quot; d=&quot;m252 180q26-26 0-48q-26-26-48 0l-192 194q-24 24 0 50l192 194q22 26 48 0q26-22 0-48l-156-172z&quot; horiz-adv-x=&quot;265&quot; /&gt;
++&lt;glyph glyph-name=&quot;right-open-mini&quot; unicode=&quot;&amp;#xe823;&quot; d=&quot;m13 180l158 170l-158 172q-26 26 0 48q26 26 48 0l192-194q24-26 0-50l-192-194q-22-26-48 0q-26 22 0 48z&quot; horiz-adv-x=&quot;265&quot; /&gt;
++&lt;glyph glyph-name=&quot;left-open-big&quot; unicode=&quot;&amp;#xe824;&quot; d=&quot;m452-20q26-26 0-48q-26-26-48 0l-392 394q-24 24 0 50l392 394q22 26 48 0q26-22 0-48l-358-372z&quot; horiz-adv-x=&quot;465&quot; /&gt;
++&lt;glyph glyph-name=&quot;right-open-big&quot; unicode=&quot;&amp;#xe825;&quot; d=&quot;m13-20l358 370l-358 372q-26 26 0 48q26 26 48 0l392-394q24-26 0-50l-392-394q-22-26-48 0q-26 22 0 48z&quot; horiz-adv-x=&quot;465&quot; /&gt;
++&lt;glyph glyph-name=&quot;left&quot; unicode=&quot;&amp;#xe836;&quot; d=&quot;m378 20l-378 330l378 330l0-190l352 0l0-278l-352 0l0-192z&quot; horiz-adv-x=&quot;730&quot; /&gt;
++&lt;glyph glyph-name=&quot;right&quot; unicode=&quot;&amp;#xe826;&quot; d=&quot;m350 680l380-330l-380-330l0 192l-350 0l0 278l350 0l0 190z&quot; horiz-adv-x=&quot;730&quot; /&gt;
++&lt;glyph glyph-name=&quot;ccw&quot; unicode=&quot;&amp;#xe808;&quot; d=&quot;m532 736q170 0 289-120t119-290t-119-290t-289-120q-142 0-252 88l70 74q84-60 182-60q126 0 216 90t90 218t-90 218t-216 90q-124 0-214-87t-92-211l142 0l-184-204l-184 204l124 0q2 166 122 283t286 117z&quot; horiz-adv-x=&quot;940&quot; /&gt;
++&lt;glyph glyph-name=&quot;arrows-ccw&quot; unicode=&quot;&amp;#xe806;&quot; d=&quot;m186 140l116 116l0-292l-276 16l88 86q-116 122-114 290t120 288q100 100 240 116l4-102q-100-16-172-88q-88-88-90-213t84-217z m332 598l276-16l-88-86q116-122 114-290t-120-288q-96-98-240-118l-2 104q98 16 170 88q88 88 90 213t-84 217l-114-116z&quot; horiz-adv-x=&quot;820&quot; /&gt;
++&lt;glyph glyph-name=&quot;palette&quot; unicode=&quot;&amp;#xe829;&quot; d=&quot;m857 622q72-48 101-110t20-104t-35-48q-16-4-54 10t-80 10t-80-46q-30-46-21-75t34-65t23-50q-2-26-36-63t-126-74t-216-37q-186 0-291 101t-95 245q8 118 104 235t216 151q290 84 536-80z m-318-466q30 0 52 22t22 54t-22 53t-52 21q-32 0-54-21t-22-53t22-54t54-22z&quot; horiz-adv-x=&quot;980&quot; /&gt;
++&lt;glyph glyph-name=&quot;list-add&quot; unicode=&quot;&amp;#xe80c;&quot; d=&quot;m350 400q22 0 36-15t14-35t-15-35t-35-15l-300 0q-20 0-35 15t-15 35t14 35t36 15l300 0z m0-200q22 0 36-15t14-35t-15-35t-35-15l-300 0q-20 0-35 15t-15 35t14 35t36 15l300 0z m620 200q30 0 30-50t-30-50l-170 0l0-170q0-30-50-30t-50 30l0 170l-164 0q-30 0-30 50t30 50l164 0l0 170q0 30 50 30t50-30l0-170l170 0z m-620 200q22 0 36-15t14-35t-15-35t-35-15l-300 0q-20 0-35 15t-15 35t14 35t36 15l300 0z&quot; horiz-adv-x=&quot;1000&quot; /&gt;
++&lt;glyph glyph-name=&quot;doc&quot; unicode=&quot;&amp;#xe809;&quot; d=&quot;m818 595q16-16 16-36l0-521q0-65-46-111t-110-46l-522 0q-65 0-110 46t-46 111l0 625q0 65 46 110t110 46l417 0q22 0 37-15z m-110-36l-135 134l0-56q0-32 23-55t55-23l57 0z m-30-574q21 0 36 16t15 37l0 469l-78 0q-53 0-92 38t-38 92l0 78l-365 0q-21 0-37-15t-15-37l0-625q0-21 15-37t37-16l522 0z&quot; horiz-adv-x=&quot;834&quot; /&gt;
++&lt;glyph glyph-name=&quot;left-open-outline&quot; unicode=&quot;&amp;#xe82e;&quot; d=&quot;m638 91q0-64-47-111t-110-46q-65 0-110 45l-371 372l371 371q44 44 111 44t111-44q45-45 45-111q0-65-45-110l-150-150l150-150q45-45 45-110z m-490 260l297-298q15-15 37-15t37 15t15 38q0 21-15 36l-224 224l224 223q15 15 15 37q0 22-15 37t-37 15t-37-15z&quot; horiz-adv-x=&quot;638&quot; /&gt;
++&lt;glyph glyph-name=&quot;left-open-2&quot; unicode=&quot;&amp;#xe82c;&quot; d=&quot;m481 684q32-31 32-74t-32-74l-186-186l186-186q32-31 32-74t-32-74t-73-31t-74 31l-334 334l334 334q30 31 74 31t73-31z&quot; horiz-adv-x=&quot;513&quot; /&gt;
++&lt;glyph glyph-name=&quot;right-open-outline&quot; unicode=&quot;&amp;#xe82f;&quot; d=&quot;m156-66q-63 0-110 46t-46 111t46 110l150 150l-150 150q-46 46-46 110q0 65 46 111q44 44 110 44t110-44l372-371l-372-372q-45-45-110-45z m0 729q-21 0-37-16t-15-36q0-20 16-37l223-223l-223-224q-16-16-16-36q0-22 16-38q15-15 36-15t37 15l297 298l-297 297q-15 15-37 15z&quot; horiz-adv-x=&quot;638&quot; /&gt;
++&lt;glyph glyph-name=&quot;right-open-2&quot; unicode=&quot;&amp;#xe82d;&quot; d=&quot;m31 684q30 31 74 31t74-31l335-334l-335-334q-31-31-74-31t-74 31t-31 74t31 74l188 186l-188 186q-31 32-31 74t31 74z&quot; horiz-adv-x=&quot;514&quot; /&gt;
++&lt;glyph glyph-name=&quot;equalizer&quot; unicode=&quot;&amp;#xe83a;&quot; d=&quot;m576 239l0-112l-55 0l0-167q0-23-17-40t-39-17t-39 17t-17 40l0 167l-56 0l0 112l56 0l0 503q0 24 17 39t38 16q24 0 41-16t16-39l0-503l55 0z m335 335l0-112l-55 0l0-502q0-23-16-40t-41-17q-23 0-39 17t-16 40l0 502l-56 0l0 112l56 0l0 168q0 24 16 39t39 16t41-16t16-39l0-168l55 0z m-670-112l0-111l-55 0l0-391q0-23-16-40t-40-17q-23 0-39 17t-17 40l0 391l-56 0l0 111l56 0l0 280q0 24 16 39t40 16t40-16t16-39l0-280l55 0z&quot; horiz-adv-x=&quot;928&quot; /&gt;
++&lt;glyph glyph-name=&quot;layers-alt&quot; unicode=&quot;&amp;#xe804;&quot; d=&quot;m18 127l446-111l447 111l0-111l-447-113l-446 113l0 111z m0 224l446-112l447 112l0-112l-447-112l-446 112l0 112z m0 223l446-112l447 112l0-112l-447-111l-446 111l0 112z m0 223l446-112l447 112l0-112l-447-111l-446 111l0 112z&quot; horiz-adv-x=&quot;928&quot; /&gt;
++&lt;glyph glyph-name=&quot;popup&quot; unicode=&quot;&amp;#xe828;&quot; d=&quot;m700 750q42 0 71-29t29-71l0-400q0-40-29-70t-71-30l-400 0q-40 0-70 30t-30 70l0 402q0 40 29 69t71 29l400 0z m0-500l0 400l-400 0l0-400l400 0z m-600 100l0-300l300 0l0-100l-300 0q-40 0-70 30t-30 70l0 300l100 0z&quot; horiz-adv-x=&quot;800&quot; /&gt;
++&lt;/font&gt;
++&lt;/defs&gt;
++&lt;/svg&gt;
+\ No newline at end of file
+</code></pre>
+<p>
+<script>hljs.initHighlightingOnLoad();</script>
+
+ 
+ 
+
+ 
+	
+	<div class="d-m-footer layout">
+		<div class="d-m-footer-main layout">
+			<dl>
+			  <dt>关于Taocode</dt>				
+			  <dd>
+			    <a href="/aboutus/">关于我们</a>
+			  </dd>
+			</dl>
+                        <dl>
+                          <dt>帮助中心</dt>
+                          <dd>
+                            <a href="/p/taobaocode/wiki/SiteHelp/">如何创建项目</a>
+			  </dd>
+                          <dd>
+                            <a href="/p/taobaocode/wiki/SiteHelp/">如何成为项目成员</a>
+                          </dd>
+                          <dd>
+                            <a href="/p/taobaocode/issues/">问题反馈</a>
+			  </dd>
+                        </dl>
+			<dl>
+			  <dt>联系我们</dt>
+			  <dd>
+			    <a class="d-m-email" href="mailto:opensource@taobao.com">邮箱</a> 
+			    <a class="d-m-weibo" href="http://e.weibo.com/taobaoopensource " target="_blank">微博</a> 
+			  </dd>
+			</dl>
+		</div>
+		<p class="d-m-right">©&nbsp;&nbsp;2013&nbsp;&nbsp;Alibaba&nbsp;&nbsp;Inc.&nbsp;&nbsp;All&nbsp;&nbsp;rights&nbsp;&nbsp;resvered.<span>
+		Powered by <a href="http://click.aliyun.com/m/5135/" target="_blank"><img src="http://g.alicdn.com/testoperation/g/aliyun-logo.png"/></a>
+</span></a>
+</p>
+	</div>
+	
+
+<script src="http://s11.cnzz.com/z_stat.php?id=1259464474&web_id=1259464474" language="JavaScript"></script>
+
+</body>
+</html>
