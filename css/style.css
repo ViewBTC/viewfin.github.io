@@ -729,14 +729,6 @@ header .spacer+* {
 	background: url(../img/bg/about3.jpg) center no-repeat;
 	background-size: cover;
 }
-.bg-about-4 {
-	background: url(../img/bg/about4.jpg) center no-repeat;
-	background-size: cover;
-}
-.bg-about-5 {
-	background: url(../img/bg/about5.jpg) center no-repeat;
-	background-size: cover;
-}
 .row-about {
 	padding-top: 90px;
 	padding-bottom: 90px;
@@ -2163,6 +2155,8 @@ opacity:1;
 .description-404 {
 	font-size: 25px;
 }
+
+
 .info-404 {
 	font-size: 20px;
 }
@@ -2201,6 +2195,7 @@ opacity:1;
 .col-about-left {
 	padding-right: 30px;
 }
+
 .banner-section .btn {
 	margin-top: 0;
 }
@@ -2223,6 +2218,7 @@ opacity:1;
 .col-contact {
 	border-left: 1px solid #E1E1E1;
 }
+
 }
 @media (min-width: 1200px) {
 .isotope .isotope-item {
@@ -2234,6 +2230,7 @@ opacity:1;
 .isotope.col-3 .isotope-item {
 	width: 33.333333%;
 }
+
 .col-about-right {
 	padding-left: 60px;
 }
@@ -2244,7 +2241,7 @@ opacity:1;
 	margin-top: 50px;
 }
 #scrollUp {
-    background: #2395ec none repeat scroll 0 0;
+    background: #cc455c none repeat scroll 0 0;
     border: 1px solid #ffffff;
     bottom: 59px;
     color: #fff;
