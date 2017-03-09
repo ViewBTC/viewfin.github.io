@@ -29,18 +29,18 @@ height:8px;
 }
 ::-webkit-scrollbar-thumb {
 cursor:pointer;
-background:#67d5b5;
+background:#cc455c;
 }
 ::selection {
-	background-color: #67d5b5;
+	background-color: #cc455c;
 	color: #fff;
 }
 -webkit-::selection {
-	background-color: #67d5b5;
+	background-color: #cc455c;
 	color: #fff;
 }
 ::-moz-selection {
-background-color:#67d5b5;
+background-color:#cc455c;
 color:#fff;
 }
 .loader {
@@ -105,7 +105,7 @@ h4 a, .h4 a {
 	color: inherit;
 }
 h4 a:hover, .h4 a:hover {
-	color: #67d5b5;
+	color: #cc455c;
 	text-decoration: none;
 }
 ul, ol {
@@ -124,19 +124,19 @@ blockquote {
 	background-color: #f6f6f6;
 	padding: 30px;
 	position: relative;
-	border-left-color: #67d5b5;
+	border-left-color: #cc455c;
 	font-size: inherit;
 	line-height: 1.7;
 	color: #6B6B6B;
 }
 a {
-	color: #67d5b5;
+	color: #cc455c;
 	-webkit-transition: all .3s ease-out;
 	-o-transition: all .3s ease-out;
 	transition: all .3s ease-out;
 }
 a:hover, a:focus {
-	color: #67d5b5;
+	color: #cc455c;
 	outline: none;
 }
 a:focus {
@@ -181,7 +181,7 @@ a:focus {
 	color: #fff;
 }
 .form-control:focus, .form-control-sm:focus {
-	border-color: #67d5b5;
+	border-color: #cc455c;
 	outline: 0;
 	-webkit-box-shadow: none;
 	box-shadow: none;
@@ -400,14 +400,14 @@ a.fa:hover, a.fa:focus {
 	overflow: hidden;
 }
 .section {
-	padding-top: 60px;
-	padding-bottom: 120px;
+	padding-top: 30px;
+	padding-bottom: 30px;
 }
 .section-title {
 	margin: 0 0 15px 0;
 }
 .section-content {
-	margin-top: 120px;
+	margin-top: 80px;
 }
 .spacer, .spacer-white {
 	position: relative;
@@ -522,7 +522,7 @@ header .spacer+* {
 	float: left;
 }
 .navbar-toggle {
-	margin-top: 3px;
+	margin-top: 23px;
 	padding: 0;
 }
 .navbar-toggle .icon-bar {
@@ -560,7 +560,7 @@ header .spacer+* {
 	text-decoration: none;
 }
 .navbar-nav {
-	margin-top: 4px;
+	margin-top: 24px;
 	font-size: 12px;
 	letter-spacing: 0.1em;
 	text-transform: uppercase;
@@ -702,18 +702,7 @@ header .spacer+* {
 	border-radius: 50%;
 	background-color: #cc455c;
 }
-.scroll-bottom .fa {
-	position: relative;
-	line-height: 50px;
-	font-size: 17px;
-	color: #fff;
-}
-.scroll-bottom:hover {
-	background-color: #fff;
-}
-.scroll-bottom:hover .fa {
-	color: #cc455c;
-}
+
 .partners {
 	overflow: hidden;
 }
@@ -730,8 +719,8 @@ header .spacer+* {
 	background-size: cover;
 }
 .row-about {
-	padding-top: 90px;
-	padding-bottom: 90px;
+	padding-top: 30px;
+	padding-bottom: 30px;
 	position: relative;
 }
 .col-about-margin {
@@ -2105,7 +2094,7 @@ opacity:1;
 
 @media (min-width: 768px) {
 .navbar {
-	padding-top: 50px;
+	padding-top: 20px;
 }
 .brand {
 	margin: 0;
@@ -2242,7 +2231,6 @@ opacity:1;
 }
 #scrollUp {
     background: #cc455c none repeat scroll 0 0;
-    border: 1px solid #ffffff;
     bottom: 59px;
     color: #fff;
     font-size: 20px;
