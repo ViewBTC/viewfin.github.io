@@ -158,24 +158,7 @@ a:focus {
 	-o-transition: all .15s;
 	transition: all .15s;
 }
-.form-control-sm, textarea.form-control-sm {
-	font-size: 11px;
-	letter-spacing: 0.1em;
-	height: 40px;
-	padding: 13px 13px 13px;
-	color: #fff;
-	border-radius: 0;
-	text-transform: uppercase;
-	color: #fff;
-	background-color: transparent;
-	border: 2px solid #fff;
-	letter-spacing: 0.1em;
-	-webkit-box-shadow: none;
-	box-shadow: none;
-	-webkit-transition: all .15s;
-	-o-transition: all .15s;
-	transition: all .15s;
-}
+
 .form-control-white, textarea.form-control-white {
 	border-color: #fff;
 	color: #fff;
@@ -305,14 +288,11 @@ label.mc-label .fa {
 	background-color: #67d5b5;
 	border-color: #67d5b5;
 }
-.btn-b-white {
-	border: 2px solid #fff;
-	background-color: transparent;
-}
+
 .btn-b-white:hover, .btn-b-white:focus, .btn-hvr-white:hover, .btn-hvr-white:focus {
 	color: #141414;
 	background-color: #fff;
-	border-color: #fff;
+
 }
 .btn-b-dark {
 	color: #141414;
@@ -1361,9 +1341,7 @@ img.mfp-img {
 .owl-controls .owl-page.active span, .owl-controls .owl-page:hover span {
 	background-color: #cc455c;
 }
-.dots-white .owl-controls .owl-page span {
-	border-color: #fff;
-}
+
 .dots-white .owl-controls .owl-page.active span, .dots-white .owl-controls .owl-page:hover span {
 	background-color: #fff;
 }
