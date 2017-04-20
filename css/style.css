@@ -37,8 +37,15 @@
   01
   Common Styles
 */
+/*fonts*/
+@font-face {
+  font-family: 'Gisha';
+  src: url('../fonts/Gisha.eot?#iefix') format('embedded-opentype'),  url('../fonts/Gisha.woff') format('woff'), url('../fonts/Gisha.ttf')  format('truetype'), url('../fonts/Gisha.svg#Gisha') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
 body {
-  font-family: Gisha, "Microsoft YaHei", serif;
+  font-family: 'Gisha', "Microsoft YaHei", serif;
   color: #6d6d6d;
   font-weight: 400;
   font-size: 15px;
@@ -68,7 +75,6 @@ h4,
 h5,
 h6 {
   font-weight: 400;
-  font-family: Gisha, "Microsoft YaHei", serif;
   color: #2d2d2d;
 }
 a {
@@ -83,7 +89,7 @@ a:focus {
   text-decoration: none;
 }
 a.small-link {
-  font-family: Gisha, "Microsoft YaHei", serif;
+  font-family: 'Gisha', "Microsoft YaHei", serif;
   font-size: 11px;
   letter-spacing: 0.05em;
   font-weight: 500;
@@ -134,7 +140,7 @@ select {
 }
 .table > thead > tr > th {
   border-bottom: 1px solid #e7e7e7;
-  font-family: Gisha, "Microsoft YaHei", serif;
+  font-family: 'Gisha', "Microsoft YaHei", serif;
   font-size: 11px;
   font-weight: 400;
   letter-spacing: 1px;
@@ -333,7 +339,7 @@ section.dark-bg .title > hr {
   -webkit-transition: all .3s ease;
   transition: all .3s ease;
   font-weight: 500;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Gisha', sans-serif;
 }
 .btn + .btn {
   margin-left: 10px;
@@ -641,7 +647,7 @@ section.dark-bg .title > hr {
 }
 #testimonials-slider .slides blockquote p:before,
 #testimonials-slider .slides blockquote p:after {
-  font-family: Georgia, serif;
+  font-family: 'Gisha', serif;
 }
 #testimonials-slider .slides blockquote p:before {
   content: open-quote;
@@ -658,7 +664,7 @@ section.dark-bg .title > hr {
   font-weight: 400;
   color: inherit;
   text-transform: uppercase;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Gisha', sans-serif;
 }
 #testimonials-slider .slides img {
   width: 80px;
@@ -1102,7 +1108,7 @@ section.dark-bg .counter > span {
 }
 .img-holder {
   position: absolute;
-  top: 0;
+  top: 120px;
   width: 100%;
   height: 100%;
   background-size: cover;
@@ -1295,7 +1301,7 @@ section.dark-bg .counter > span {
   font-size: 11px;
   border-radius: 0;
   color: #2d2d2d;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Gisha', sans-serif;
   font-weight: 500;
   background-color: #f4f4f4;
   border: 0;
@@ -1329,7 +1335,7 @@ section.dark-bg .counter > span {
   border-radius: 0;
   font-weight: 500;
   color: #2d2d2d;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Gisha', sans-serif;
   border: 0;
   border-bottom: 1px solid #ddd;
   margin-right: 0;
@@ -1380,7 +1386,7 @@ section.dark-bg .counter > span {
   font-size: 11px;
   border-radius: 0;
   color: #2d2d2d;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Gisha', sans-serif;
   background-color: transparent;
   border: 0;
   margin-right: 0;
@@ -1676,7 +1682,7 @@ section.dark-bg .minimal-tabs > li.active > a:hover {
 }
 .dylan-site-name {
   color: #fff;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Gisha', sans-serif;
   text-transform: uppercase;
   font-weight: 700;
   font-size: 28px;
@@ -2781,7 +2787,7 @@ section.dark-bg .text-box.outlined {
   transition: all .3s ease;
 }
 #filters li {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Gisha', sans-serif;
   display: inline-block;
   position: relative;
   padding: 8px;
@@ -2906,7 +2912,7 @@ section.dark-bg .text-box.outlined {
   Team
 */
 .team-member {
-  max-width: 350px;
+  max-width: 270px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 25px;
@@ -3329,7 +3335,7 @@ section.dark-bg .timeline .timeline-content:before {
   color: #1b96ed;
   font-size: 11px;
   text-transform: uppercase;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Gisha', sans-serif;
   letter-spacing: 0.05em;
 }
 .timeline > li .timeline-content span b:after {
@@ -4141,7 +4147,7 @@ textarea.wpcf7-form-control {
   display: inline-block;
   padding: 15px 20px;
   text-transform: uppercase;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Gisha', sans-serif;
   font-size: 12px;
   letter-spacing: 0.1em;
   color: #fff;
@@ -4178,7 +4184,7 @@ textarea.wpcf7-form-control {
   display: block;
   padding: 15px 20px;
   text-transform: uppercase;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Gisha', sans-serif;
   font-size: 12px;
   letter-spacing: 0.1em;
   color: #fff;
@@ -4215,7 +4221,7 @@ textarea.wpcf7-form-control {
   color: #a0a0a0;
   font-size: 13px;
   font-weight: 400;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Gisha', sans-serif;
 }
 .product-info > span ins {
   text-decoration: none;
@@ -4236,7 +4242,7 @@ textarea.wpcf7-form-control {
 #cart > thead > tr > th {
   border-bottom: 1px solid #e6e6e6;
   font-size: 13px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Gisha', sans-serif;
   color: #2d2d2d;
   font-weight: 400;
   padding: 15px 20px;
@@ -4246,7 +4252,7 @@ textarea.wpcf7-form-control {
   padding: 20px 8px;
   vertical-align: middle;
   font-size: 13px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Gisha', sans-serif;
   font-weight: 400;
   border-bottom: 1px solid;
   border-color: #e6e6e6;
@@ -4354,7 +4360,7 @@ textarea.wpcf7-form-control {
 .product_list_widget li .product-summary a {
   display: block;
   color: #2d2d2d;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Gisha', sans-serif;
   font-weight: 400!important;
   font-size: 14px;
 }
@@ -4365,7 +4371,7 @@ textarea.wpcf7-form-control {
 .product-list li .product-summary span,
 .product_list_widget li .product-summary span {
   color: #939393;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Gisha', sans-serif;
   font-size: 12px;
   letter-spacing: 1px;
 }
@@ -4450,7 +4456,7 @@ textarea.wpcf7-form-control {
 }
 .single-product-add .inline-form .form-control {
   font-size: 13px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Gisha', sans-serif;
   padding: 0 15px;
   text-align: center;
   margin-right: 10px;
@@ -4497,7 +4503,7 @@ textarea.wpcf7-form-control {
 .single-product-list .product_meta p > span {
   display: inline-block;
   padding: 5px 0;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Gisha', sans-serif;
   color: #2d2d2d;
   text-transform: uppercase;
   font-size: 11px;
@@ -4506,7 +4512,7 @@ textarea.wpcf7-form-control {
 }
 .single-product-list .product_meta p > a {
   color: #6d6d6d;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Gisha', sans-serif;
   text-transform: none;
   letter-spacing: 0;
   font-size: 13px;
@@ -4601,7 +4607,7 @@ textarea.wpcf7-form-control {
 .shop_table thead th {
   text-transform: uppercase;
   font-size: 13px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Gisha', sans-serif;
   font-weight: 500;
   letter-spacing: 1px;
 }
@@ -4731,7 +4737,7 @@ form.register {
   padding: 20px 25px;
   border-color: #999;
   color: #fff;
-  font-family: 'Quattrocento', serif;
+  font-family: 'Gisha', serif;
   text-transform: none;
   font-size: 18px;
   letter-spacing: 0;
@@ -4869,13 +4875,16 @@ form.register {
   font-size: 15px;
 }
 .post-single .post-media {
-  margin-top: 25px;
+ float: left;
 }
 .post-single .post-body {
   padding: 20px 0;
   font-family: Gisha, "Microsoft YaHei", serif;
   color: #7a7a7a;
-  font-size: 17px;
+  font-size: 14px;
+}
+.post-single .post-body p>img {
+ padding-left: 250px;
 }
 .post-single .post-body h1,
 .post-single .post-body h2,
@@ -4956,7 +4965,7 @@ form.register {
   margin-top: 0;
   border-radius: 50%!important;
   line-height: 36px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Gisha', sans-serif;
   font-size: 11px;
   color: #2d2d2d;
   border: 1px solid #e6e6e6;
@@ -5042,7 +5051,7 @@ form.register {
   margin-bottom: 3px;
 }
 #sidebar .widget ul > li > a {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Gisha', sans-serif;
   color: #2d2d2d;
   font-size: 13px;
 }
@@ -5144,24 +5153,19 @@ form.register {
   display: inline-block;
   float: left;
 }
-.comment-pic {
-  width: 15%;
-}
+
 .comment-pic img {
   margin-top: 10px;
-  width: 75px;
-  border-radius: 50%;
 }
 .comment-text {
-  width: 85%;
-  padding-left: 15px;
+  padding-left: 45px;
 }
 .comment-date {
   color: #939393;
   display: block;
   font-size: 13px;
   margin-bottom: 10px;
-  font-family: 'Quattrocento', sans-serif;
+  font-family: 'Gisha', sans-serif;
 }
 .comment-reply {
   font-size: 11px;
@@ -5294,7 +5298,7 @@ form.register {
   -webkit-transition: all .3s ease;
   transition: all .3s ease;
   font-weight: 500;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Gisha', sans-serif;
   color: #fff;
   border-color: #1b96ed;
   background-color: #1b96ed;
@@ -5479,7 +5483,7 @@ form.register {
   transition: all .3s ease;
 }
 .blog-grid-wrapper .grid-post article .grid-post-content .grid-post-author {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Gisha', sans-serif;
   text-transform: uppercase;
   font-size: 11px;
   margin-left: 5px;
@@ -5678,7 +5682,7 @@ form.register {
   text-transform: uppercase;
   font-size: 11px;
   letter-spacing: 0.1em;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Gisha', sans-serif;
   display: inline-block;
 }
 .countdown span {
@@ -6506,7 +6510,7 @@ form.register {
     color: #1b96ed;
   }
   #topnav .navigation-menu > li .submenu li span {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Gisha', sans-serif;
     display: block;
     padding: 8px 25px;
     clear: both;
@@ -6717,7 +6721,7 @@ form.register {
     padding-left: 0;
   }
   #aside-nav .navigation-menu > li .submenu.megamenu > li > ul > li > span {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Gisha', sans-serif;
     display: block;
     position: relative;
     padding: 15px;
