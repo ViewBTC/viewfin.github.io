@@ -2576,8 +2576,7 @@ section.dark-bg .text-box.outlined {
   width: auto;
 }
 .client-image {
-  padding: 75px 30px;
-  margin-bottom: 30px;
+  padding: 45px 30px;
   text-align: center;
   position: relative;
 }
@@ -6573,11 +6572,17 @@ form.register {
     width: 750px;
     max-width: 100%;
   }
+  .footer-widgets {
+    display: none;
+  }
 }
 @media (min-width: 992px) and (min-width: 1200px) {
   .left-navbar .container {
     width: 970px;
     max-width: 100%;
+  }
+  .footer-widgets {
+    display: none;
   }
 }
 @media (max-width: 991px) {
@@ -6929,6 +6934,9 @@ form.register {
   .blog-grid-wrapper .grid-post.no-post-thumb .post-featured-image {
     height: 365px;
   }
+  .footer-widgets {
+    display: none;
+  }
 }
 @media (min-width: 768px) and (max-width: 991px) {
   #works-grid.two-col .work-item,
@@ -6950,6 +6958,9 @@ form.register {
   .dy-menu .dy-menu-body {
     border: 1px solid #eee;
   }
+  .footer-widgets {
+    display: none;
+  }
 }
 @media (min-width: 768px) {
   #topnav .navigation-menu > li.menu-item-has-children:hover > .submenu {
@@ -6965,6 +6976,9 @@ form.register {
     opacity: 1;
     margin-left: 0;
     margin-right: 0;
+  }
+  .footer-widgets {
+    display: none;
   }
 }
 @media (max-width: 767px) {
@@ -7099,6 +7113,7 @@ form.register {
     padding-left: 15px;
     padding-right: 15px;
     margin-bottom: 25px;
+    display: none;
   }
   .blog-grid-wrapper .grid-post,
   .blog-grid-wrapper .grid-post.featured-post {
