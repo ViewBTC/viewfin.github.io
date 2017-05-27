@@ -2912,15 +2912,22 @@ section.dark-bg .text-box.outlined {
 */
 .team-member {
   max-width: 270px;
+  opacity:1;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 25px;
 }
-.team-member:hover .team-overlay {
+.team-member:hover  {
   opacity: 1;
   visibility: visible;
-  -webkit-transform: scale(1);
-  transform: scale(1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  -webkit-transition: -webkit-transform .25s ease-in-out;
+  transition: -webkit-transform .25s ease-in-out;
+  transition: transform .25s ease-in-out;
+  transition: transform .25s ease-in-out, -webkit-transform .25s ease-in-out;
+
+
 }
 .team-member.round-thumb {
   text-align: center;
@@ -3030,7 +3037,7 @@ section.dark-bg .text-box.outlined {
 }
 .team-social > li > a {
   display: block;
-  color: #fff;
+  color: #1b96ed;
   width: 40px;
   height: 40px;
   line-height: 40px;
@@ -3048,7 +3055,9 @@ section.dark-bg .text-box.outlined {
   letter-spacing: 0.075em;
   margin-top: 0;
   margin-bottom: 10px;
+  font-weight: bold;
 }
+
 .team-info > span {
   font-size: 15px;
   color: #999;
@@ -3106,6 +3115,11 @@ section.dark-bg .text-box.outlined {
   10
   Footer
 */
+
+.company-logos img {
+  max-width:25%;
+}
+
 #footer-widgets {
   padding-top: 30px;
   padding-bottom: 30px;
@@ -3220,6 +3234,7 @@ section.dark-bg .text-box.outlined {
   color: #ccc;
 }
 #footer .copy-text p {
+
   margin: 0;
 }
 .go-top {
@@ -7277,4 +7292,13 @@ form.register {
     border-color: #1b96ed;
     border-bottom-color: transparent;
   }
+}
+
+.image-gallery{
+  padding:16px;
+}
+
+
+.image-gallery img{
+  margin: 4px;
 }
